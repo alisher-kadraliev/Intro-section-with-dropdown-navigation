@@ -11,6 +11,7 @@
 
     @media (max-width: $breakpoint992) {
         max-width: 970px;
+
     }
 
     @media (max-width: $breakpoint768) {
@@ -24,8 +25,15 @@
 
 // Body Locked
 body {
+    font-family: 'Epilogue', sans-serif;
+    font-size: 18px;
+
+
+
     &.locked {
         overflow: hidden;
+        
+
     }
 }
 
